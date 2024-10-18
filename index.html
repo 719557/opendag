@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="developer.css">
+    <title>Front-end developer</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img style="width: 50px" src="images/logo.png" alt="">
+        </a>
+        <nav class="navigation">
+            <a href="#over ons">Over ons</a>
+            <a href="#locaties">Locaties</a>
+            <a href="#aanmelden">Aanmelden</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+
+    <section class="main">
+        <div>
+            <h2>Welkom bij curio!<br><span>Front-end developer</span></h2>
+            <h3>Ontdek onze opleidingen en bereid je voor op een succesvolle toekomst.</h3>
+            <a href="https://www.curio.nl/mbo/techniek-en-technologie/softwaredeveloper/front-end-developer"
+                class="main-btn" target="_blank">Bekijk de opleiding</a>
+            <a href="https://www.curio.nl/mbo/kies-jouw-mbo/open-dagen" class="main-btn" target="_blank">De opendagen</a>
+            <div class="social-icons">
+                <a href="https://api.whatsapp.com/send?phone=31622089133" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.youtube.com/@curioonderwijsgroep" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://x.com/curioonderwijs" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards" id="over ons">
+        <h2 class="title">Over de opleiding</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="info">
+                    <h3>Beschrijving</h3>
+                    <p>De opleiding Front-end Developer bereidt je voor op webdesign en ontwikkeling met moderne technologieën.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <div class="info">
+                    <h3>Curriculum</h3>
+                    <p>Je leert HTML, CSS, JavaScript, UX/UI design en doet praktijkopdrachten om vaardigheden toe te passen.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-user-check"></i>
+                </div>
+                <div class="info">
+                    <h3>Toelating</h3>
+                    <p>Voor deze opleiding heb je minimaal een mbo niveau 3-diploma of vergelijkbaar nodig.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="info">
+                    <h3>Carrière</h3>
+                    <p>Na je opleiding kun je aan de slag als front-end developer, webdesigner of UI-specialist.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <div class="info">
+                    <h3>Testimonials</h3>
+                    <p>Ik heb enorm veel geleerd en ben nu aan de slag bij een toonaangevend webbureau!" - Jan,
+                        oud-student.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="locaties" id="locaties">
+        <h2 class="title">Onze locaties</h2>
+        <div class="school-list">
+            <div class="school">
+                <a href="https://maps.app.goo.gl/ugm3qpbPWw7DyMcL6" target="_blank">
+                    <img src="https://www.curio.nl/sites/default/files/styles/inline_image_768/public/2024-06/curio_locatie_mbo_terheijdenseweg_350-1.jpg?itok=rZ0UIRPf"
+                        alt="Curio Terheijdensweg 350">
+                </a>
+                <p class="locatie-name">Terheijdensweg 350 breda</p>
+            </div>
+            <div class="school">
+                <a href="https://maps.app.goo.gl/UHVCwBRijBRsT9Tz9" target="_blank">
+                    <img src="https://www.curio.nl/sites/default/files/styles/hero_large/public/2024-06/curio_locatie_mbo_terheijdenseweg_348-2.jpg?itok=Uq1Qs2gF"
+                        alt="Curio Terheijdensweg 348">
+                </a>
+                <p class="locatie-name">Terheijdensweg 348 breda</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="aanmelden" id="aanmelden">
+      
+    
+            <h2 class="title-aanmelden">Registratieformulier</h2>
+            <form action="#" method="POST" class="registration-form">
+                <label for="naam">Naam:</label>
+                <input type="text" id="naam" name="naam" placeholder="Uw volledige naam" required />
+        
+                <label for="email">E-mailadres:</label>
+                <input type="email" id="email" name="email" placeholder="Uw e-mailadres" required />
+        
+                <label for="wachtwoord">Wachtwoord:</label>
+                <input type="password" id="wachtwoord" name="wachtwoord" placeholder="Uw wachtwoord" required />
+        
+                <label for="telefoon">Telefoonnummer:</label>
+                <input type="tel" id="telefoon" name="telefoon" placeholder="Uw telefoonnummer" />
+        
+                <label for="geboortedatum">Geboortedatum:</label>
+                <input type="date" id="geboortedatum" name="geboortedatum" required />
+        
+                <label for="akkoord">
+                    <input type="checkbox" id="akkoord" name="akkoord" required />
+                    Ik ga akkoord met de <a href="#">algemene voorwaarden</a>.
+                </label>
+        
+                <button type="submit">Aanmelden</button>
+            </form>
+
+    </section>
+
+    <section class="cards contact" id="contact">
+        <h2 class="title">Neem contact met ons op</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="info">
+                    <h3>Telefoonnummer</h3>
+                    <p>088-2098000</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>E-mailadres</h3>
+                    <p>infopunt@curio.nl</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<footer class="footer">
+<p class="footer-title">Auteursrechten@<span>Hakim Al-hazi</span></p>
+<div class="social-icons">
+    <a href="https://api.whatsapp.com/send?phone=31622089133" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.youtube.com/@curioonderwijsgroep" target="_blank"><i class="fab fa-youtube"></i></a>
+    <a href="https://x.com/curioonderwijs" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>
+</footer>
+</body>
+
+</html>

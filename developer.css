@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;600&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #83ee09;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #301997;
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+
+.logo img {
+    width: 50px;
+    background-image:#f7f7f7;
+}
+
+.navigation a {
+    color:#120052;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: #fff;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/background.png)no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+ 
+.main h2 {
+    color: rgb(235, 238, 241);
+    font-size: 1.4 em;
+    font-weight: 500;
+}
+ 
+
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #48cfa0;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: #fff;
+    background-color: blue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: #48cfa0;
+    transform: scale(1.1);
+
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.7em;
+    margin-right: 20px;
+    margin-left: 15px;
+    transition: 0.7s ease;
+}
+
+.social-icons a:hover {
+    color:#48cfa0;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(3, 4, 63);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap: warp;
+
+}
+
+.card {
+    background-color: #fff;
+    width: 25%;
+    box-shadow: 0 5px 25px rgba(1 1 1/15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+    flex-wrap: wrap; 
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color:#03095a;
+    font-size: 3.5em;
+    text-align: center;
+    width: 100%;
+
+}
+
+.info{
+text-align: center;
+font-size: 0.8em;
+
+
+}
+.info h3 {
+    color:#03095a;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+
+}
+ 
+.locaties {
+background-color: #48cfa0;
+}
+
+.schools {
+    margin: 40px 0;
+    text-align: center;
+    background-color: lightblue;
+
+}
+
+.school-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+
+.school {
+    margin: 20px;
+    text-align: center;
+}
+
+.school img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.school img:hover {
+    transform: scale(1.1);
+}
+
+.locatie-name {
+    margin-top: 20px;
+    font-weight: 4000;
+}
+
+.aamelden {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+
+}
+
+.title-aanmelden {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    color:#120052;
+    font-size: 2.2em;
+    font-weight: 800;
+}
+
+.aamelden h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.registration-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid #120052;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:#04919b80;
+    border-radius: 8px;
+}
+
+.registration-form label {
+    font-weight: bold;
+    color: #000000;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"],
+.registration-form input[type="tel"],
+.registration-form input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.registration-form input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.registration-form label a {
+    color:#03095a;
+    text-decoration: none;
+}
+
+.registration-form label a:hover {
+    text-decoration: underline;
+}
+
+.registration-form button {
+    padding: 12px;
+    background-color:#120052;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+
+.registration-form button:hover {
+    background-color: #fff;
+    color:#120052;
+
+}
+
+
+.contact .info :p {
+    font-size: 1.5em ;
+}
+
+.footer {
+    background-color: #120052;
+    color:#fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color:#f8bb44
+}
